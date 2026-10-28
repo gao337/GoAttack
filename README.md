@@ -139,7 +139,7 @@ python Evaluation.py \
   --population_size 6 \
   --max_generations 3 \
   --ga True \
-  --num .
+  --num 
 ```
 
 The paper's Coherence Score is obtained with an LLM judge (GPT-4o in the reported experiments):
@@ -153,7 +153,7 @@ python CoherenceEvaluator.py \
   --population_size 6 \
   --max_generations 3 \
   --ga True \
-  --num . \
+  --num  \
   --judge_llm gpt-4o \
   --judge_api_key "$OPENAI_API_KEY"
 ```
@@ -171,7 +171,7 @@ python Evaluation.py \
   --max_generations 3 \
   --ga True \
   --ablation coherence \
-  --num .
+  --num 
 
 python CoherenceEvaluator.py \
   --dataset MATH \
@@ -182,7 +182,7 @@ python CoherenceEvaluator.py \
   --max_generations 3 \
   --ga True \
   --ablation coherence \
-  --num . \
+  --num  \
   --judge_llm gpt-4o \
   --judge_api_key "$OPENAI_API_KEY"
 ```
