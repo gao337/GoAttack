@@ -27,8 +27,6 @@ On Windows PowerShell, activate the environment with:
 
 ### Sentence encoder
 
-To keep the anonymous artifact below the 50 MB submission limit, the
-approximately 90 MB `all-MiniLM-L6-v2` weights may be omitted from the ZIP.
 When the local model directory is absent, GoAttack automatically downloads
 `sentence-transformers/all-MiniLM-L6-v2` from Hugging Face on first use and
 caches it in:
