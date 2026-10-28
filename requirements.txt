@@ -1,0 +1,6 @@
+# Main dependencies from the `document` environment (Python 3.10.19).
+numpy==1.26.4
+openai==2.15.0
+tqdm==4.67.1
+datasets==4.5.0
+sentence-transformers==5.1.2
