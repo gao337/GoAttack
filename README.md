@@ -1,6 +1,6 @@
 # GoAttack
 
-Anonymous code artifact for the AAAI 2027 submission **"GoAttack: A Genetic-optimization Attack on Large Reasoning Models via Adaptive Reasoning Chain Injection."**
+**"GoAttack: A Genetic-optimization Attack on Large Reasoning Models via Adaptive Reasoning Chain Injection."**
 
 GoAttack is a black-box attack on large reasoning models. It creates alternative questions with different answers, extracts misleading reasoning prefixes, and uses genetic optimization to jointly improve attack efficacy, reasoning coherence, and semantic stealthiness. The artifact includes the four datasets used in the paper: MATH, GSM8K, CSQA, and MATHQA.
 
@@ -237,4 +237,3 @@ models--sentence-transformers--all-MiniLM-L6-v2/
 model_utils.py                       Model download and cache utility
 ```
 
-For anonymous review, this README intentionally contains no author identity or non-anonymous citation information.
