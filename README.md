@@ -1,6 +1,6 @@
 # GoAttack
 
-**"GoAttack: A Genetic-optimization Attack on Large Reasoning Models via Adaptive Reasoning Chain Injection."**
+**GoAttack: A Genetic-optimization Attack on Large Reasoning Models via Adaptive Reasoning Chain Injection.**
 
 GoAttack is a black-box attack on large reasoning models. It creates alternative questions with different answers, extracts misleading reasoning prefixes, and uses genetic optimization to jointly improve attack efficacy, reasoning coherence, and semantic stealthiness. The artifact includes the four datasets used in the paper: MATH, GSM8K, CSQA, and MATHQA.
 
